@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <img id="profile-pic" src=".jpg, .png, .jpeg" alt="Profile Picture">
+            <div class="contact-info">
+                <h1>GAMAR RAMADHANI MALIK</h1>
+                <h2>INFORMATICS STUDENT</h2>
+                <p>Email: gamarramadhani16@gmail.com</p>
+                <p>Phone: +62881027491148</p>
+            </div>
+        </div>
+        <button onclick="document.getElementById('fileInput').click()">Ganti foto profilmu</button>
+        <input type="file" id="fileInput" accept="image/*" style="display: none;" onchange="changePhoto(event)">
+        
+        <div class="content">
+            <section>
+                <h2>TENTANG SAYA</h2>
+                <p>Seorang Mahasiswa aktif di UPN “Veteran” Jawa Timur. Saya memiliki antusiasme yang besar terhadap bidang “Machine Learning” dan senang terlibat dalam proyek-proyek yang melibatkan bidang ini.</p>
+            </section>
+            <section>
+                <h2>PENGALAMAN</h2>
+                <div class="experience">
+                    <h3>Anggota Kesehatan</h3>
+                    <p>LANIK - 11/23</p>
+                    <ul>
+                        <li>Merancang dan mengimplementasikan protokol kesehatan untuk memastikan kesehatan seluruh peserta acara LANIK.</li>
+                        <li>Menyediakan layanan kesehatan selama acara, termasuk penanganan peserta yang jatuh sakit.</li>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3>Ketua Divisi Humas</h3>
+                    <p>Abdi Desa - 10/23</p>
+                    <ul>
+                        <li>Mampu untuk bersikap interaktif dan menempatkan diri dengan orang desa.</li>
+                        <li>Memastikan bahwa anggota divisi untuk saling bekerja sama.</li>
+                        <li>Menjalin kerja sama antar kepala divisi</li>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3>Anggota Konsumsi dan Kesehatan</h3>
+                    <p>MOSAIK - 8/23</p>
+                    <ul>
+                        <li>Memastikan bahwa kegiatan dan program yang terkait dengan konsumsi dan kesehatan berjalan lancar selama acara.</li>
+                        <li>Memastikan peserta kegiatan mendapatkan perawatan yang tepat ketika mengalami sakit</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>Pendidikan</h2>
+                <ul>
+                    <li>Informatika - Universitas Pembangunan Nasional "Veteran" Jawa Timur (2022 - Present)</li>
+                    <li>Matematika dan IPA - SMAN 1 Bangsal (2019 - 2022)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Hobi</h2>
+                <ul>
+                    <li>Membaca Buku</li>
+                    <li>Menonton Film</li>
+                    <li>Mengoding</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
